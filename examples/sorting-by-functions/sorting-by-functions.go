@@ -17,7 +17,7 @@ import (
 // `[]string`.
 type byLength []string
 
-// Мы реализуем `sort.Interface` - Len`, `Less` и `Swap`
+// Мы реализуем `sort.Interface - Len`, `Less` и `Swap`
 // - для нашего типа, чтобы мы могли использовать общую
 // функцию `Sort` пакета `sort`. `Len` и `Swap` обычно
 // одинаковы для разных типов, а `Less` будет содержать

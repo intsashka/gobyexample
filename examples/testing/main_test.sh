@@ -1,4 +1,5 @@
-# Run all tests in the current project in verbose mode.
+# Запустите все тесты в текущем проекте 
+# в подробном режиме.
 $ go test -v
 == RUN   TestIntMinBasic
 --- PASS: TestIntMinBasic (0.00s)

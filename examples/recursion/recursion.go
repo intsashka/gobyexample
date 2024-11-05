@@ -6,7 +6,7 @@ package main
 
 import "fmt"
 
-// Фукция `fact` вызывает себя по не достигнет
+// Фукция `fact` вызывает себя пока не достигнет
 // `fact(0)`.
 func fact(n int) int {
 	if n == 0 {
